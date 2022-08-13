@@ -1,0 +1,47 @@
+#root{
+    width: 45%;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    position: relative;
+    margin:auto;
+    display: flex;
+    
+}
+
+body{
+    background-color: #FF0080;
+
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.fruta{
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    margin: 2px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+    background-color: white;
+    padding: 5px;
+    font-size: 0px;
+}
+
+.activar{
+    background-color: black;
+    font-size: 60px;
+    transition: 2.5s;
+    transform: rotateY(180deg);
+}
